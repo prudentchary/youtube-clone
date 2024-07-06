@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    vertical-align: bottom;
+    /* height: 20%; */
+}
+
+header a {
+    text-decoration: none;
+}
+
+.h-2 {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.Header-logo-image {
+    width: 40px;
+    height: 100%;
+}
+
+.youtube-text {
+    font-weight: 30px;
+    /* font-weight: 700; */
+    line-height: 30px;
+}
+
+.input-group {
+    position: relative;
+    width: 20%;
+}
+
+.user-header-profile {
+    width: 35px;
+    height: 35px;
+}
+
+.general-content-container {
+    margin-top: 55px;
+}
+
+.content-video-container {
+    margin-left: 80px;
+}
+
+#video-category {
+    background-color: rgb(228, 224, 224);
+}
+
+.creator-img-container {
+    width: 40px;
+    height: 40px;
+    /* border-radius: 50%; */
+}
+
+.video-title {
+    font-size: 15px;
+}
+
+.video-info {
+    margin-left: 15px
+}

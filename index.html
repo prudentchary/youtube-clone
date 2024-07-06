@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+
+
+
+    <header class=" fixed-top p-2 h-40 d-flex bg-light w-100 d-flex justify-content-between ">
+        <div>
+
+            <button class=" btn btn-sm rounded-circle bg-light border-0 p-1 h-2 "> <i class="ri-menu-fill fs-5 text-center "></i></button>
+            <a href="# "> <img class="image-fluid Header-logo-image " src="./Assests/youtubelogo-removebg-preview.png " alt="youtube Logo ">
+                <h4 class="youtube-text text-dark text-decoration-none d-inline ">YouTube </h4> <span class="text-decoration-none text-dark "><sup>NG</sup></span>
+            </a>
+        </div>
+
+
+        <div>
+            <form class="d-flex">
+                <input class="form-control border rounded-pill w-70 " type="search " placeholder="Search " aria-label="Search ">
+                <a href=" "><button class="btn btn-outline-success " type="submit "><i class="ri-search-line text-dark "></i></button></a>
+                <button class="btn btn-light border-0 rounded-circle "><i class="ri-mic-line "></i></button>
+            </form>
+        </div>
+
+
+        <div class="d-flex align-content-center ">
+
+            <div class="mr-2"><button class=" btn btn-light border-0 rounded-circle bg-light "><i class="ri-video-add-line"></i></button></div>
+            <div><button class="btn btn-light border-0 rounded-circle bg-light "><i class="ri-movie-line "></i></button></div>
+            <a href="">
+                <div class=" border rounded-circle user-header-profile "><img class="img-fluid w-100 h-100 rounded-circle object-fit-cover " src="./Assests/client-1.jpg " alt=" "></div>
+            </a>
+
+        </div>
+
+
+
+
+
+    </header>
+
+
+
+    <div class="container-fluid general-content-container">
+
+
+        <div class="content-container d-flex">
+
+
+            <div class="col-auto bg-succes text-center side-bar position-fixed d-sm-non ">
+
+                <div class="p-2 mb-2 ">
+                    <a class="text-dark text-decoration-none" href=""><i class="ri-home-4-fill fs-4"></i>
+                    <span class="d-block">Home</span></a>
+                </div>
+
+
+                <div class="p-2  mb-2">
+                    <a class="text-dark text-decoration-none" href=""><i class="ri-video-on-fill fs-4"></i>
+                    <span class="d-block">Home</span></a>
+                </div>
+
+
+                <div class="p-2  mb-2">
+                    <a class="text-dark text-decoration-none" href=""><i class="ri-home-4-fill fs-4"></i>
+                    <span class="d-block">Home</span></a>
+                </div>
+
+
+                <div class="p-2  mb-2">
+                    <a class="text-dark text-decoration-none" href=""><i class="ri-home-4-fill fs-4"></i>
+                    <span class="d-block">Home</span></a>
+                </div>
+
+
+            </div>
+
+
+            <div class="content-video-container bg-succes auto">
+
+                <div class="video-category-button-container p-2 ">
+                    <a href=""><button class="btn btn-dark rounded-pill video-category">All</button></a>
+                    <a href=""><button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">Javacript</button></a>
+
+                    <a href=""> <button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">Javacript</button></a>
+                    <a href=""><button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">Nollywood</button></a>
+                    <a href=""><button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">Music Video</button></a>
+                    <a href=""><button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">Favourite Actor</button></a>
+                    <a href=""><button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">Game</button></a>
+                    <a href=""><button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">Football</button></a>
+                    <a href=""><button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">Bollywood</button></a>
+                    <a href=""><button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">FC Barcelona </button></a>
+                    <a href=""><button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">World Cup</button></a>
+                    <a href=""><button id="video-category" class="btn btn-secondary rounded-pill video-category text-black border-0">Graphic Design</button></a>
+                </div>
+
+
+
+                <div class="row ">
+
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 borde border-succes">
+
+                        <div class="mb-3">
+
+                            <img class="img-fluid w-100 rounded" src="./Assests/First youtube thumbnail.jpeg" alt="Thunmbnail1">
+
+                        </div>
+
+                        <div class=" d-flex video-info-container">
+
+
+                            <div class=" border rounded-circle user-header-profile "><img class="img-fluid w-100 h-100 rounded-circle object-fit-cover " src="./Assests/client-1.jpg " alt=" "></div>
+
+                            <div class="video-info ml-3">
+                                <p class="fw-bold video-title m-0">How to find the perfect thiumnail for your projects</p>
+
+                                <span class="text-secondary d-block">Building modern project</span>
+                                <span class="number-of-view text-secondary">230k  &#183; 10hours ago</span>
+
+
+                            </div>
+
+                            <div>
+                                <button class="btn border border-0 rounded-circle"><i class="ri-more-2-line fs-5"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 borde border-success">
+
+                        <div class="mb-3">
+
+                            <img class="img-fluid w-100 rounded" src="./Assests/First youtube thumbnail.jpeg" alt="Thunmbnail1">
+
+                        </div>
+
+                        <div class=" d-flex video-info-container">
+
+
+                            <div class=" border rounded-circle user-header-profile "><img class="img-fluid w-100 h-100 rounded-circle object-fit-cover " src="./Assests/client-1.jpg " alt=" "></div>
+
+                            <div class="video-info ml-3">
+                                <p class="fw-bold video-title m-0">How to find the perfect thiumnail for your projects</p>
+
+                                <span class="text-secondary d-block">Building modern project</span>
+                                <span class="number-of-view text-secondary">230k  &#183; 10hours ago</span>
+
+
+                            </div>
+
+                            <div>
+                                <button class="btn border border-0 rounded-circle"><i class="ri-more-2-line fs-5"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 borde border-success">
+
+                        <div class="mb-3 p-0">
+
+                            <img class="img-fluid w-100 rounded" src="./Assests/First youtube thumbnail.jpeg" alt="Thunmbnail1">
+
+                        </div>
+
+                        <div class=" d-flex video-info-container">
+
+
+                            <div class=" border rounded-circle user-header-profile "><img class="img-fluid w-100 h-100 rounded-circle object-fit-cover " src="./Assests/client-1.jpg " alt=" "></div>
+
+                            <div class="video-info ml-3">
+                                <p class="fw-bold video-title m-0">How to find the perfect thiumnail for your projects</p>
+
+                                <span class="text-secondary d-block">Building modern project</span>
+                                <span class="number-of-view text-secondary">230k  &#183; 10hours ago</span>
+
+
+                            </div>
+
+                            <div>
+                                <button class="btn border border-0 rounded-circle"><i class="ri-more-2-line fs-5"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src=" ./bootstrap-5.1.3-dist/js/bootstrap.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
+
+</html>
